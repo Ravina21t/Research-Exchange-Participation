@@ -1,0 +1,321 @@
+header {
+    background-color:lightgray;
+    color:white;
+    height:50px;
+    top:10px;
+    left:0px;
+    width:100%;  
+}
+nav {
+    background-color:99CCFF;
+    height:86%;
+    width:200px;
+    float:left;
+    top:60px;
+    left:0px;
+}
+.section {
+   
+    margin-top:7%;
+    float:left;
+    padding:10px;
+    height:86%;
+   text-align: center;
+    min-height: 630px;
+    width:100%;
+}
+
+footer {
+   
+    background-color:#780000;
+    color:white;
+    clear:both;
+    text-align:center;
+    padding:5px;
+    left:0px;
+    width:100%;
+    height:100%;
+    font-size: 150%;
+    
+  
+  
+   
+}
+
+li{
+    display:inline;
+}
+
+.align_right {
+    
+  
+  font-size: 150%;
+  float:right;
+}
+.align_left {
+    
+   
+    font-size: 150%;
+    float: left;
+}
+
+.align_left_green
+{
+    color:green;
+    font-size: 150%;
+    float: left;
+}
+
+
+div.border {
+    
+    width: 800px;
+    height:350px;
+    padding: 10px;
+    border: 5px solid gray;
+    margin-top: 10%; 
+    margin-left: 20%;
+    margin-bottom:10%;
+    text-align: left;
+}
+
+
+
+ 
+ 
+ 
+ input[type="email"],input[type="password"],input[type="text"],input[type='text'][name='name'],input[type='file']{
+    width: 400px;      
+}
+
+.big
+{
+    height:60px;
+}
+
+
+label {
+    width:180px;
+    display:inline-block;
+    text-align:right;
+    padding-right:10px;
+    font-size: 150%;
+}
+
+.relative
+{
+    position: relative;
+    top: 40%;
+    float:left;
+    font-size: 150%;
+}
+img{
+    display: block;
+}
+
+table {
+    margin-top: 40px;
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 70%;
+    background-color:lightskyblue;
+}
+ td
+ {
+     height:77px;
+     border:1px solid black;
+     text-align: center;   
+ }
+ 
+ th{
+     background-color: black;
+     color: white;
+     border:1px solid white;
+ }
+ 
+ .td_participate_even{ 
+    margin-top: 40px;
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 10%;
+    background-color:gray;
+ }
+ 
+ .td_participate_odd{ 
+    margin-top: 40px;
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 10%;
+    background-color:lightgrey;
+ }
+ 
+ 
+ .td_participate{
+     height:50px;
+     border:1px solid white;
+     text-align: center; 
+ }
+ 
+
+
+input[type='submit']
+{
+    width: 100px;
+    
+   
+}
+
+
+input[type='submit'][name='button']
+{
+    margin-left: 55px;
+    width: 200px;
+   
+    font-size: 100%;
+    background-color: lightblue;
+    text-align:center;
+    border-color: black;
+    padding:5px;
+    border-radius: 8px;
+    height:45px;
+}
+
+
+input[type='submit'][name='studies']
+{
+    margin-left: 100px;
+    width: 200px;
+    font-size: 100%;
+    background-color: lightgrey;
+    text-align:center;
+    padding:5px;
+    border-radius: 8px;
+    margin-top: 35px;
+}
+
+.tree{
+    margin-left: 100px;
+}
+
+
+.part_button[type='submit']
+{
+    width: 70%;
+    height:70%;
+    color: black;
+    padding: 1%;
+    background-color:lightgray;
+}
+
+
+
+.label-signup {
+   
+    width: 258px;
+    font-size: 24px;
+}
+.label-signup-big
+{
+    width: 258px;
+    font-size: 24px;
+    height:100px;
+}
+
+.about {
+    margin-top: 4px;
+    font-size: 19px;
+    padding: 13px;
+    border: 5px solid gray;
+    width: 65%;
+    float: right;
+    margin-right: 165px;
+}
+
+.aboutl {
+    margin-top: 39px;
+    font-size: 120%;
+    padding: 13px;
+    border: 5px solid gray;
+    width: 70%;
+    float: right;
+    margin-right: 45px;
+}
+
+.aboutl_table {
+    background-color: 99CCFF;
+    height: 86%;
+    width: 20%;
+    float: left;
+    margin-bottom: 20px; 
+}
+
+
+.confirmc {
+    margin-top: 3%;
+}
+
+.label { 
+    width: 40%;
+    text-align: right;
+    float: left;
+}
+.txt {     
+    width: 60%;
+    float: right;
+}
+
+input{
+    padding: 1%;
+    margin: 0.4%;
+    width: 28%;
+    height: 3%;     
+}
+
+.mid_container{
+    margin-top: 10%;
+}
+
+.center{
+    margin-top: 4%;
+    margin-left: 2%;
+}
+
+.studies{
+    margin-top: 0%;
+    margin-left: 27%;
+    font-size: 120%;
+    padding: 1%;
+    width: 60%;
+    min-height: 630px;
+    
+}
+
+.h3_label{
+    background-color: lightgrey;
+    padding: 9px;
+    width: 15%;
+}
+
+.container {
+   
+    margin-top:0%;
+    float:left;
+    padding:10px;
+    height:86%;
+    text-align: center;
+    min-height: 500px; 
+    width:100%;
+    min-height:630px;
+}
+
+.images{
+    margin:0 auto;
+}
+
+.h4_label{
+    background-color: lightgray;
+    padding: 4px;
+    width: 15%;
+    margin-left: 28%;
+    margin-top: 3%;
+}
